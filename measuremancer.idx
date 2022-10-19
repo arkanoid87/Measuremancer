@@ -1,0 +1,107 @@
+FloatLike	measuremancer.html#FloatLike	measuremancer: FloatLike	
+Measurement	measuremancer.html#Measurement	measuremancer: Measurement	
+value	measuremancer.html#value,Measurement[T: FloatLike]	measuremancer: value[T: FloatLike](m: Measurement[T]): T	
+uncertainty	measuremancer.html#uncertainty,Measurement[T: FloatLike]	measuremancer: uncertainty[T: FloatLike](m: Measurement[T]): T	
+error	measuremancer.html#error,Measurement[T: FloatLike]	measuremancer: error[T: FloatLike](m: Measurement[T]): T	
+hash	measuremancer.html#hash,DerivKey[T: FloatLike]	measuremancer: hash[T: FloatLike](key: DerivKey[T]): Hash	
+`==`	measuremancer.html#==,DerivKey[T: FloatLike],DerivKey[T: FloatLike]	measuremancer: `==`[T: FloatLike](k1, k2: DerivKey[T]): bool	
+`==`	measuremancer.html#==,Measurement[T: FloatLike],Measurement[T: FloatLike]	measuremancer: `==`[T: FloatLike](m1, m2: Measurement[T]): bool	
+`==`	measuremancer.html#==,Measurement[T: FloatLike],T	measuremancer: `==`[T: FloatLike](m: Measurement[T]; x: T): bool	
+`==`	measuremancer.html#==,T,Measurement[T: FloatLike]	measuremancer: `==`[T: FloatLike](x: T; m: Measurement[T]): bool	
+isInf	measuremancer.html#isInf,Measurement[T: FloatLike]	measuremancer: isInf[T: FloatLike](m: Measurement[T]): bool	
+isNegInf	measuremancer.html#isNegInf,Measurement[T: FloatLike]	measuremancer: isNegInf[T: FloatLike](m: Measurement[T]): bool	
+toFloat	measuremancer.html#toFloat,T	measuremancer: toFloat[T: SomeFloat](x: T): float	
+±	measuremancer.html#±,T,T	measuremancer: ±[T: FloatLike](val, uncer: T): Measurement[T]	
+±	measuremancer.html#±,,	measuremancer: ±[T: FloatLike](val, uncer: T{lit}): Measurement[float]	
+measurement	measuremancer.html#measurement,T,T	measuremancer: measurement[T: FloatLike](value, uncertainty: T): Measurement[T]	
+pretty	measuremancer.html#pretty,Measurement[T: FloatLike],int	measuremancer: pretty[T: FloatLike](m: Measurement[T]; precision: int): string	
+`$`	measuremancer.html#$,Measurement[T: FloatLike]	measuremancer: `$`[T: FloatLike](m: Measurement[T]): string	
+print	measuremancer.html#print.t,untyped	measuremancer: print(arg: untyped): untyped	
+`+`	measuremancer.html#+,Measurement[T: FloatLike],Measurement[T: FloatLike]	measuremancer: `+`[T: FloatLike](a, b: Measurement[T]): Measurement[T]	
+`+`	measuremancer.html#+,T,	measuremancer: `+`[T: FloatLike](x`gensym6: T; m`gensym6: Measurement[T]): Measurement[T]	
+`+`	measuremancer.html#+,,T	measuremancer: `+`[T: FloatLike](m`gensym6: Measurement[T]; x`gensym6: T): Measurement[T]	
+`+`	measuremancer.html#+,,	measuremancer: `+`[T: FloatLike; U: FloatLike](x`gensym6: `{}`(T, lit);\n                                m`gensym6: Measurement[U]): Measurement[U]	
+`+`	measuremancer.html#+,,_2	measuremancer: `+`[U: FloatLike; T: FloatLike](m`gensym6: Measurement[U]; x`gensym6: `{}`(T,\n    lit)): Measurement[U]	
+`+=`	measuremancer.html#+=,Measurement[T: FloatLike],Measurement[T: FloatLike]	measuremancer: `+=`[T: FloatLike](a: var Measurement[T]; b: Measurement[T])	
+`-`	measuremancer.html#-,Measurement[T: FloatLike],Measurement[T: FloatLike]	measuremancer: `-`[T: FloatLike](a, b: Measurement[T]): Measurement[T]	
+`-`	measuremancer.html#-,T,	measuremancer: `-`[T: FloatLike](x`gensym7: T; m`gensym7: Measurement[T]): Measurement[T]	
+`-`	measuremancer.html#-,,T	measuremancer: `-`[T: FloatLike](m`gensym7: Measurement[T]; x`gensym7: T): Measurement[T]	
+`-`	measuremancer.html#-,,	measuremancer: `-`[T: FloatLike; U: FloatLike](x`gensym7: `{}`(T, lit);\n                                m`gensym7: Measurement[U]): Measurement[U]	
+`-`	measuremancer.html#-,,_2	measuremancer: `-`[U: FloatLike; T: FloatLike](m`gensym7: Measurement[U]; x`gensym7: `{}`(T,\n    lit)): Measurement[U]	
+`-=`	measuremancer.html#-=,Measurement[T: FloatLike],Measurement[T: FloatLike]	measuremancer: `-=`[T: FloatLike](a: var Measurement[T]; b: Measurement[T])	
+`-`	measuremancer.html#-,Measurement[T: FloatLike]	measuremancer: `-`[T: FloatLike](m: Measurement[T]): Measurement[T]	
+`*`	measuremancer.html#*,Measurement[T: FloatLike],Measurement[U: FloatLike]	measuremancer: `*`[T: FloatLike; U: FloatLike](a: Measurement[T]; b: Measurement[U]): auto	
+`*`	measuremancer.html#*,T,Measurement[U: FloatLike]	measuremancer: `*`[T: FloatLike; U: FloatLike](x: T; m: Measurement[U]): auto	
+`*`	measuremancer.html#*,Measurement[U: FloatLike],T	measuremancer: `*`[T: FloatLike; U: FloatLike](m: Measurement[U]; x: T): auto	
+`*`	measuremancer.html#*,,Measurement[U: FloatLike]	measuremancer: `*`[T: FloatLike; U: FloatLike](x: T{lit}; m: Measurement[U]): Measurement[U]	
+`*`	measuremancer.html#*,Measurement[U: FloatLike],	measuremancer: `*`[U: FloatLike; T: FloatLike](m: Measurement[U]; x: T{lit}): Measurement[U]	
+`*=`	measuremancer.html#*=,Measurement[T: FloatLike],Measurement[T: FloatLike]	measuremancer: `*=`[T: FloatLike](a: var Measurement[T]; b: Measurement[T])	
+`*=`	measuremancer.html#*=,Measurement[T: FloatLike],T	measuremancer: `*=`[T: FloatLike](a: var Measurement[T]; b: T)	
+`/`	measuremancer.html#/,Measurement[T: FloatLike],Measurement[U: FloatLike]	measuremancer: `/`[T: FloatLike; U: FloatLike](a: Measurement[T]; b: Measurement[U]): auto	
+`/`	measuremancer.html#/,T,Measurement[U: FloatLike]	measuremancer: `/`[T: FloatLike; U: FloatLike](x: T; m: Measurement[U]): auto	
+`/`	measuremancer.html#/,Measurement[T: FloatLike],U	measuremancer: `/`[T: FloatLike; U: FloatLike](m: Measurement[T]; x: U): auto	
+`/`	measuremancer.html#/,,Measurement[U: FloatLike]	measuremancer: `/`[T: FloatLike; U: FloatLike](x: T{lit}; m: Measurement[U]): Measurement[U]	
+`/`	measuremancer.html#/,Measurement[U: FloatLike],	measuremancer: `/`[U: FloatLike; T: FloatLike](m: Measurement[U]; x: T{lit}): Measurement[U]	
+`**`	measuremancer.html#**,Measurement[T: FloatLike],Natural	measuremancer: `**`[T: FloatLike](m: Measurement[T]; p: Natural): Measurement[T]	
+`^`	measuremancer.html#^,Measurement[T: FloatLike],Natural	measuremancer: `^`[T: FloatLike](m: Measurement[T]; p: Natural): Measurement[T]	
+`**`	measuremancer.html#**,Measurement[T: FloatLike],FloatLike	measuremancer: `**`[T: FloatLike](m: Measurement[T]; p: FloatLike): Measurement[T]	
+`^`	measuremancer.html#^,Measurement[T: FloatLike],FloatLike	measuremancer: `^`[T: FloatLike](m: Measurement[T]; p: FloatLike): Measurement[T]	
+`**`	measuremancer.html#**,Measurement[T: FloatLike],Measurement[T: FloatLike]	measuremancer: `**`[T: FloatLike](a, b: Measurement[T]): Measurement[T]	
+`^`	measuremancer.html#^,Measurement[T: FloatLike],Measurement[T: FloatLike]	measuremancer: `^`[T: FloatLike](a, b: Measurement[T]): Measurement[T]	
+sqrt	measuremancer.html#sqrt	measuremancer: sqrt[T](m: Measurement[T]): Measurement[T]	
+cbrt	measuremancer.html#cbrt	measuremancer: cbrt[T](m: Measurement[T]): Measurement[T]	
+abs2	measuremancer.html#abs2	measuremancer: abs2[T](m: Measurement[T]): Measurement[T]	
+inv	measuremancer.html#inv	measuremancer: inv[T](m: Measurement[T]): Measurement[T]	
+log	measuremancer.html#log	measuremancer: log[T](m: Measurement[T]): Measurement[T]	
+log10	measuremancer.html#log10	measuremancer: log10[T](m: Measurement[T]): Measurement[T]	
+log2	measuremancer.html#log2	measuremancer: log2[T](m: Measurement[T]): Measurement[T]	
+log1p	measuremancer.html#log1p	measuremancer: log1p[T](m: Measurement[T]): Measurement[T]	
+exp	measuremancer.html#exp	measuremancer: exp[T](m: Measurement[T]): Measurement[T]	
+exp2	measuremancer.html#exp2	measuremancer: exp2[T](m: Measurement[T]): Measurement[T]	
+expm1	measuremancer.html#expm1	measuremancer: expm1[T](m: Measurement[T]): Measurement[T]	
+sin	measuremancer.html#sin	measuremancer: sin[T](m: Measurement[T]): Measurement[T]	
+cos	measuremancer.html#cos	measuremancer: cos[T](m: Measurement[T]): Measurement[T]	
+tan	measuremancer.html#tan	measuremancer: tan[T](m: Measurement[T]): Measurement[T]	
+sec	measuremancer.html#sec	measuremancer: sec[T](m: Measurement[T]): Measurement[T]	
+csc	measuremancer.html#csc	measuremancer: csc[T](m: Measurement[T]): Measurement[T]	
+cot	measuremancer.html#cot	measuremancer: cot[T](m: Measurement[T]): Measurement[T]	
+arcsin	measuremancer.html#arcsin	measuremancer: arcsin[T](m: Measurement[T]): Measurement[T]	
+arccos	measuremancer.html#arccos	measuremancer: arccos[T](m: Measurement[T]): Measurement[T]	
+arctan	measuremancer.html#arctan	measuremancer: arctan[T](m: Measurement[T]): Measurement[T]	
+arcsec	measuremancer.html#arcsec	measuremancer: arcsec[T](m: Measurement[T]): Measurement[T]	
+arccsc	measuremancer.html#arccsc	measuremancer: arccsc[T](m: Measurement[T]): Measurement[T]	
+arccot	measuremancer.html#arccot	measuremancer: arccot[T](m: Measurement[T]): Measurement[T]	
+sinh	measuremancer.html#sinh	measuremancer: sinh[T](m: Measurement[T]): Measurement[T]	
+cosh	measuremancer.html#cosh	measuremancer: cosh[T](m: Measurement[T]): Measurement[T]	
+tanh	measuremancer.html#tanh	measuremancer: tanh[T](m: Measurement[T]): Measurement[T]	
+sech	measuremancer.html#sech	measuremancer: sech[T](m: Measurement[T]): Measurement[T]	
+csch	measuremancer.html#csch	measuremancer: csch[T](m: Measurement[T]): Measurement[T]	
+coth	measuremancer.html#coth	measuremancer: coth[T](m: Measurement[T]): Measurement[T]	
+arcsinh	measuremancer.html#arcsinh	measuremancer: arcsinh[T](m: Measurement[T]): Measurement[T]	
+arccosh	measuremancer.html#arccosh	measuremancer: arccosh[T](m: Measurement[T]): Measurement[T]	
+arctanh	measuremancer.html#arctanh	measuremancer: arctanh[T](m: Measurement[T]): Measurement[T]	
+arcsech	measuremancer.html#arcsech	measuremancer: arcsech[T](m: Measurement[T]): Measurement[T]	
+arccsch	measuremancer.html#arccsch	measuremancer: arccsch[T](m: Measurement[T]): Measurement[T]	
+arccoth	measuremancer.html#arccoth	measuremancer: arccoth[T](m: Measurement[T]): Measurement[T]	
+deg2rad	measuremancer.html#deg2rad	measuremancer: deg2rad[T](m: Measurement[T]): Measurement[T]	
+rad2deg	measuremancer.html#rad2deg	measuremancer: rad2deg[T](m: Measurement[T]): Measurement[T]	
+erf	measuremancer.html#erf	measuremancer: erf[T](m: Measurement[T]): Measurement[T]	
+erfinv	measuremancer.html#erfinv	measuremancer: erfinv[T](m: Measurement[T]): Measurement[T]	
+erfc	measuremancer.html#erfc	measuremancer: erfc[T](m: Measurement[T]): Measurement[T]	
+erfcinv	measuremancer.html#erfcinv	measuremancer: erfcinv[T](m: Measurement[T]): Measurement[T]	
+erfi	measuremancer.html#erfi	measuremancer: erfi[T](m: Measurement[T]): Measurement[T]	
+signbit	measuremancer.html#signbit,Measurement[T: FloatLike]	measuremancer: signbit[T: FloatLike](m: Measurement[T]): bool	
+copysign	measuremancer.html#copysign,Measurement[T: FloatLike],Measurement[T: FloatLike]	measuremancer: copysign[T: FloatLike](a, b: Measurement[T]): Measurement[T]	
+copysign	measuremancer.html#copysign,Measurement[T: FloatLike],U	measuremancer: copysign[T: FloatLike; U: FloatLike](a: Measurement[T]; b: U): Measurement[T]	
+copysign	measuremancer.html#copysign,U,Measurement[T: FloatLike]	measuremancer: copysign[T: FloatLike; U: FloatLike](a: U; b: Measurement[T]): U	
+abs	measuremancer.html#abs,Measurement[T: FloatLike]	measuremancer: abs[T: FloatLike](m: Measurement[T]): Measurement[T]	
+`&lt;`	measuremancer.html#<,,	measuremancer: `&lt;`[T: FloatLike](a`gensym102, b`gensym102: Measurement[T]): bool	
+`&lt;`	measuremancer.html#<,,T	measuremancer: `&lt;`[T: FloatLike](a`gensym102: Measurement[T]; b`gensym102: T): bool	
+`&lt;`	measuremancer.html#<,T,	measuremancer: `&lt;`[T: FloatLike](a`gensym102: T; b`gensym102: Measurement[T]): bool	
+`&lt;`	measuremancer.html#<,,_2	measuremancer: `&lt;`[T: FloatLike; U: FloatLike](a`gensym102: Measurement[T];\n                                b`gensym102: `{}`(U, lit)): bool	
+`&lt;`	measuremancer.html#<,,_3	measuremancer: `&lt;`[T: FloatLike; U: FloatLike](a`gensym102: `{}`(U, lit);\n                                b`gensym102: Measurement[T]): bool	
+`&lt;=`	measuremancer.html#<=,,	measuremancer: `&lt;=`[T: FloatLike](a`gensym103, b`gensym103: Measurement[T]): bool	
+`&lt;=`	measuremancer.html#<=,,T	measuremancer: `&lt;=`[T: FloatLike](a`gensym103: Measurement[T]; b`gensym103: T): bool	
+`&lt;=`	measuremancer.html#<=,T,	measuremancer: `&lt;=`[T: FloatLike](a`gensym103: T; b`gensym103: Measurement[T]): bool	
+`&lt;=`	measuremancer.html#<=,,_2	measuremancer: `&lt;=`[T: FloatLike; U: FloatLike](a`gensym103: Measurement[T];\n                                 b`gensym103: `{}`(U, lit)): bool	
+`&lt;=`	measuremancer.html#<=,,_3	measuremancer: `&lt;=`[T: FloatLike; U: FloatLike](a`gensym103: `{}`(U, lit);\n                                 b`gensym103: Measurement[T]): bool	
